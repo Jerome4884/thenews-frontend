@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap');
+
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,6 +12,7 @@
 .title {
   line-height: 1.15;
   font-size: 4rem;
+  font-family: "Newsreader", serif;
 }
 
 .title a {
@@ -19,4 +22,17 @@
 
 .title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
+}
+.articlesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
